@@ -30,16 +30,16 @@
 mindmap
   root((iDempiere<br/>開源 ERP))
     演化史
-      Compiere (1999)
+      Compiere 1999
         ::icon(fa fa-history)
         Java + Oracle
-        Application Dictionary (AD) 原創
-      ADempiere (2006)
+        Application Dictionary 原創
+      ADempiere 2006
         ::icon(fa fa-code-fork)
         社群分支
         PostgreSQL 支援
-        製造模組 (Libero)
-      iDempiere (2011)
+        製造模組 Libero
+      iDempiere 2011
         ::icon(fa fa-rocket)
         現代化重構
         OSGi 模組化架構
@@ -50,35 +50,35 @@ mindmap
         核心與客製化分離
         熱部署
       Application Dictionary
-        模型驅動開發 (Model-Driven)
+        模型驅動開發 Model-Driven
         資料庫定義 UI/邏輯
         無須寫 Code 即可調整欄位/畫面
       技術堆疊
         Java 17+
         PostgreSQL / Oracle
         Jetty Web Server
-        ZK Framework (Ajax UI)
+        ZK Framework Ajax UI
     主要功能
       財務會計
-        Document-Driven (文件驅動)
+        Document-Driven 文件驅動
         自動產生會計分錄
       供應鏈管理
-        採購 (Requisition-to-Pay)
-        銷售 (Quote-to-Cash)
-        庫存 (倉庫/批號/屬性)
+        採購 Requisition-to-Pay
+        銷售 Quote-to-Cash
+        庫存 倉庫/批號/屬性
       生產製造
         BOM / MRP
         工單管理
       其他
         CRM / 專案管理
         Workflow 引擎
-        多租戶 (Multi-Tenant)
+        多租戶 Multi-Tenant
     優勢與挑戰
       優勢
         ::icon(fa fa-thumbs-up)
-        完全開源 (GPL v2) 無授權費
+        完全開源 GPL v2 無授權費
         會計底蘊深厚
-        架構穩定且彈性 (AD + OSGi)
+        架構穩定且彈性 AD + OSGi
       挑戰
         ::icon(fa fa-exclamation-triangle)
         學習曲線陡峭
@@ -87,7 +87,7 @@ mindmap
     適合對象
       重視會計功能的中小企業
       需要多組織/多公司架構
-      具備一定 IT 能力 (Java)
+      具備一定 IT 能力 Java
       重視資料自主權
 ```
 
@@ -139,13 +139,13 @@ mindmap
       ::icon(fa fa-university)
       定位
         嚴謹會計核心
-        開發平台 (Framework)
+        開發平台 Framework
       技術
         Java + OSGi
         PostgreSQL
       優勢
-        會計功能最強 (多組織/多幣別)
-        完全免費 (GPL v2)
+        會計功能最強 多組織/多幣別
+        完全免費 GPL v2
         去中心化社群
       劣勢
         學習曲線高
@@ -163,9 +163,9 @@ mindmap
         PostgreSQL
       優勢
         UI 最現代美觀
-        生態系最大 (40k+ Apps)
+        生態系最大 40k+ Apps
       劣勢
-        商業版 (EE) 需付費
+        商業版 EE 需付費
         升級路徑複雜
       適合
         重視 UI/UX
@@ -176,12 +176,12 @@ mindmap
         現代化全功能 ERP
         Simple yet Powerful
       技術
-        Python (Frappe)
+        Python Frappe
         MariaDB
       優勢
         製造業功能強
         介面簡潔易用
-        完全免費 (GPL v3)
+        完全免費 GPL v3
       劣勢
         市佔率較小
       適合
@@ -253,23 +253,23 @@ mindmap
       資源共享
       RBAC 權限
     四層結構
-      System (系統層)
+      System 系統層
         Admin Only
         Client 0
-        全域設定 (Table/AD)
-      Client (租戶層)
+        全域設定 Table/AD
+      Client 租戶層
         ::icon(fa fa-building)
         等於獨立公司/法人
         資料完全隔離
         獨立會計科目/BP/產品
-      Organization (組織層)
+      Organization 組織層
         ::icon(fa fa-sitemap)
         等於部門/分公司
         交易歸屬單位
-        Summary (彙總/財報用)
-        Transactional (交易用)
-        * (全組織/共用資料)
-      Role/User (權限層)
+        Summary 彙總/財報用
+        Transactional 交易用
+        * 全組織/共用資料
+      Role/User 權限層
         ::icon(fa fa-users)
         User 多對多 Role
         Role 決定視窗/流程權限
@@ -279,7 +279,7 @@ mindmap
         獨立法人再分 Client
         否則用 Org 區分
       Organization
-        必設 Summary 層 (供合併報表)
+        必設 Summary 層 供合併報表
         交易資料產生後難改結構
 ```
 
@@ -332,12 +332,12 @@ mindmap
 mindmap
   root((iDempiere<br/>快速體驗))
     體驗方式
-      線上 Demo (零安裝)
+      線上 Demo 零安裝
         ::icon(fa fa-cloud)
         GlobalQSS / Test Server
-        GardenAdmin (全權限)
+        GardenAdmin 全權限
         資料定期重置
-      Docker (推薦)
+      Docker 推薦
         ::icon(fa fa-docker)
         Official Image
         PostgreSQL 內建
@@ -347,20 +347,20 @@ mindmap
         4GB+ RAM
         Docker Compose
       Compose 服務
-        idempiere (App)
-        postgres (DB)
+        idempiere App
+        postgres DB
       指令
         docker compose up -d
-        Port: 8080 (WebUI)
+        Port: 8080 WebUI
     初次登入探索
       介面
-        Menu Box (主選單)
-        Dashboard (儀表板)
+        Menu Box 主選單
+        Dashboard 儀表板
       基本操作
         ::icon(fa fa-check-square)
-        建立 Sales Order (自動計價)
-        查看 Posted (自動分錄)
-        切換 Organization (體驗多租戶)
+        建立 Sales Order 自動計價
+        查看 Posted 自動分錄
+        切換 Organization 體驗多租戶
 ```
 
 ### 📝 重點筆記
@@ -399,34 +399,34 @@ mindmap
   root((iDempiere<br/>正式部署))
     系統需求
       Ubuntu 22.04+
-      Java 17 (OpenJDK)
+      Java 17 OpenJDK
       PostgreSQL 13+
       RAM 4GB+
     核心安裝步驟
       1. OS 初始化
         ::icon(fa fa-linux)
-        安裝中文字型 (Report用)
-        設定時區 (Asia/Taipei)
-      2. 資料庫 (PostgreSQL)
+        安裝中文字型 Report用
+        設定時區 Asia/Taipei
+      2. 資料庫 PostgreSQL
         ::icon(fa fa-database)
         建立 Role: adempiere
-        建立 DB: idempiere (UTF8)
-        LC_COLLATE='C' (重要!)
+        建立 DB: idempiere UTF8
+        LC_COLLATE='C' 重要!
         uuid-ossp extension
       3. 安裝 iDempiere
         ::icon(fa fa-download)
-        Clone Source (release-12)
-        Maven Build (mvn verify)
-        Setup Script (console-setup-alt.sh)
+        Clone Source release-12
+        Maven Build mvn verify
+        Setup Script console-setup-alt.sh
     上線後配置
       Systemd 服務
         ::icon(fa fa-cogs)
         自動啟動
         Restart on failure
-      安全性 (Nginx)
+      安全性 Nginx
         ::icon(fa fa-shield)
-        Reverse Proxy (8443)
-        SSL (Let's Encrypt)
+        Reverse Proxy 8443
+        SSL Let's Encrypt
       中文化
         匯入 zh_TW 語系包
         同步 Terminology
@@ -471,27 +471,27 @@ mindmap
 ```mermaid
 mindmap
   root((銷售流程<br/>Quote-to-Cash))
-    1. Business Partner (BP)
-      建立客戶 (Customer)
+    1. Business Partner BP
+      建立客戶 Customer
       設定 Location/Contact
-    2. Quotation (報價)
+    2. Quotation 報價
       DocType: Proposal/Quotation
       非必須步驟
-    3. Sales Order (訂單)
-      核心文件 (Standard Order)
-      完成後: 庫存預留 (Reservation)
-    4. Shipment (出貨)
-      扣庫存 (Inventory)
-      認列成本 (COGS)
+    3. Sales Order 訂單
+      核心文件 Standard Order
+      完成後: 庫存預留 Reservation
+    4. Shipment 出貨
+      扣庫存 Inventory
+      認列成本 COGS
       會計: 借 COGS / 貸 Inventory
-    5. Invoice (發票)
-      確認應收 (AR)
-      認列收入 (Revenue)
+    5. Invoice 發票
+      確認應收 AR
+      認列收入 Revenue
       會計: 借 AR / 貸 Revenue + Tax
-    6. Payment (收款)
+    6. Payment 收款
       收錢進銀行
       會計: 借 Bank / 貸 Unallocated Payment
-    7. Allocation (沖帳)
+    7. Allocation 沖帳
       核銷 AR 與 Payment
       會計: 借 Unallocated / 貸 AR
 ```
@@ -527,28 +527,28 @@ mindmap
 ```mermaid
 mindmap
   root((採購流程<br/>Requisition-to-Pay))
-    1. Business Partner (BP)
-      建立供應商 (Vendor)
+    1. Business Partner BP
+      建立供應商 Vendor
       設定 Payment Term
-    2. Requisition (請購)
+    2. Requisition 請購
       內部需求單位提出
       核准後轉 PO
-    3. Purchase Order (採購)
+    3. Purchase Order 採購
       正式採購合約
       確認價格/數量
-    4. Material Receipt (進貨)
-      倉庫收貨 (驗收)
+    4. Material Receipt 進貨
+      倉庫收貨 驗收
       會計: 借 Inventory / 貸 Not Invoiced Receipt
-    5. Vendor Invoice (發票)
+    5. Vendor Invoice 發票
       收到廠商請款單
       會計: 借 Not Invoiced Receipt / 貸 AP
-    6. Matching (核對)
-      三方核對 (PO = Receipt = Invoice)
+    6. Matching 核對
+      三方核對 PO = Receipt = Invoice
       確保無溢付
-    7. Payment (付款)
+    7. Payment 付款
       付錢給廠商
       會計: 借 Unallocated Payment / 貸 Bank
-    8. Allocation (沖帳)
+    8. Allocation 沖帳
       核銷 AP 與 Payment
       會計: 借 AP / 貸 Unallocated
 ```
@@ -584,33 +584,33 @@ mindmap
 ```mermaid
 mindmap
   root((物料管理<br/>Material Mgmt))
-    產品 (Product)
+    產品 Product
       類型
-        Item (實體/有庫存)
-        Service (無庫存)
+        Item 實體/有庫存
+        Service 無庫存
         Resource/Expense
       關鍵設定
-        UOM (單位)
-        Tax Category (稅務)
-        Product Category (會計科目)
-    屬性 (Attribute)
-      Attribute Set (批號/序號/保存期限)
-      Instance (具體數值)
+        UOM 單位
+        Tax Category 稅務
+        Product Category 會計科目
+    屬性 Attribute
+      Attribute Set 批號/序號/保存期限
+      Instance 具體數值
       用途: 食品履歷/電子序號
-    倉庫 (Warehouse)
-      Warehouse (實體地點)
-      Locator (儲位)
+    倉庫 Warehouse
+      Warehouse 實體地點
+      Locator 儲位
         Aisle-Bin-Level 三維座標
-    定價 (Pricing)
-      Price List (定價表)
-      Version (版本/效期)
+    定價 Pricing
+      Price List 定價表
+      Version 版本/效期
       三種價格
-        List (牌價)
-        Standard (售價)
-        Limit (底價)
-    成本 (Costing)
-      Standard (標準成本)
-      Average (平均成本)
+        List 牌價
+        Standard 售價
+        Limit 底價
+    成本 Costing
+      Standard 標準成本
+      Average 平均成本
       FIFO / LIFO
       Last PO Price
 ```
@@ -654,16 +654,16 @@ mindmap
 mindmap
   root((文件驅動會計<br/>Accounting))
     核心哲學
-      業務即會計 (Ops = Fin)
-      自動過帳 (Auto-Post)
+      業務即會計 Ops = Fin
+      自動過帳 Auto-Post
       無須手動切傳票
-    會計架構 (Schema)
-      Chart of Accounts (COA)
+    會計架構 Schema
+      Chart of Accounts COA
         台灣需自訂科目
         資產/負債/權益/損益
       Costing Method
         Standard/Average/FIFO
-      Default Accounts (對應)
+      Default Accounts 對應
         Product ➡️ COGS/Inventory
         BP ➡️ AR/AP
     文件與分錄
@@ -672,16 +672,16 @@ mindmap
       Receipt ➡️ 借存貨/貸暫估
     報表與對帳
       Financial Report
-        BS (資產負債)
-        PL (損益)
-        CF (現金流)
+        BS 資產負債
+        PL 損益
+        CF 現金流
       Bank Statement
         銀行對帳
         自動配對沖銷
     多幣別
-      Daily Rate (每日匯率)
-      Revaluation (期末重估)
-      Gain/Loss (匯兌損益)
+      Daily Rate 每日匯率
+      Revaluation 期末重估
+      Gain/Loss 匯兌損益
 ```
 
 ### 📝 重點筆記
@@ -715,27 +715,27 @@ iDempiere 與傳統軟體最大的不同：**業務與會計不分家**。
 ```mermaid
 mindmap
   root((退貨與未結<br/>RMA & Open Items))
-    退貨流程 (RMA)
+    退貨流程 RMA
       Customer RMA
-        Create RMA (from Shipment)
-        Return Material (退貨入庫)
-        Credit Memo (折讓發票)
+        Create RMA from Shipment
+        Return Material 退貨入庫
+        Credit Memo 折讓發票
       Vendor RMA
         Vendor RMA
-        Return to Vendor (退貨出庫)
+        Return to Vendor 退貨出庫
         Vendor Credit Memo
-    會計分錄 (Customer)
+    會計分錄 Customer
       退貨入庫
         借: Inventory / 貸: COGS
       折讓發票
         借: Revenue / 貸: AR
-    未結項目 (Open Items)
-      Aging Report (帳齡分析)
+    未結項目 Open Items
+      Aging Report 帳齡分析
         Current / 30 / 60 / 90+
-      Payment Allocation (沖帳)
+      Payment Allocation 沖帳
         1對1 / 1對多 / 多對1
-        Write-Off (呆帳沖銷)
-      Payment Selection (付款排程)
+        Write-Off 呆帳沖銷
+      Payment Selection 付款排程
         批次付款
 ```
 
@@ -764,32 +764,32 @@ mindmap
 ```mermaid
 mindmap
   root((製造模組<br/>Manufacturing))
-    BOM (物料清單)
+    BOM 物料清單
       結構
         成品 → 半成品 → 原料
       類型
         Make-to-Stock / Make-to-Order
-    工單 (MO)
+    工單 MO
       流程
         Prepare → In Progress → Complete
       動作
-        Issue (發料): 扣原料
-        Receipt (入庫): 增成品
+        Issue 發料: 扣原料
+        Receipt 入庫: 增成品
       會計
-        借: WIP / 貸: Inventory (發料)
-        借: Inventory / 貸: WIP (入庫)
-    MRP (需求規劃)
+        借: WIP / 貸: Inventory 發料
+        借: Inventory / 貸: WIP 入庫
+    MRP 需求規劃
       輸入
-        訂單 (Demand)
-        庫存 (Supply)
+        訂單 Demand
+        庫存 Supply
         BOM / Lead Time
       輸出
         Planned Purchase Order
         Planned Manufacturing Order
-    排程 (Routing)
-      Work Center (工作站)
-      Operation (工序)
-      Capacity (產能)
+    排程 Routing
+      Work Center 工作站
+      Operation 工序
+      Capacity 產能
 ```
 
 ### 📝 重點筆記
@@ -822,29 +822,29 @@ iDempiere 內建的製造模組，功能相當完整，涵蓋：
 ```mermaid
 mindmap
   root((Workflow<br/>工作流程))
-    類型 (Types)
+    類型 Types
       Document Process
-        文件生命週期 (Draft-Complete)
+        文件生命週期 Draft-Complete
       Document Value
-        條件審批 (Approval)
+        條件審批 Approval
         例: 金額 > 10萬
       General Workflow
         自訂商業流程
-    元件 (Components)
-      Node (節點)
-        User Choice (核准/拒絕)
-        Process (執行程式)
+    元件 Components
+      Node 節點
+        User Choice 核准/拒絕
+        Process 執行程式
         Set Variable
-      Transition (連線)
-        Condition (條件判斷)
-    應用 (Applications)
-      審批 (Approval)
+      Transition 連線
+        Condition 條件判斷
+    應用 Applications
+      審批 Approval
         採購核准
         訂單核准
-      通知 (Alert)
+      通知 Alert
         庫存低水位
         逾期帳款
-      排程 (Scheduler)
+      排程 Scheduler
         每日 MRP
         匯率更新
 ```
@@ -877,31 +877,31 @@ iDempiere 的 Workflow 不只是「簽核」，它能控制系統的所有流程
 mindmap
   root((Plugin 開發<br/>OSGi 架構))
     核心理念
-      不改核心 (Core)
-      只寫插件 (Plugin)
+      不改核心 Core
+      只寫插件 Plugin
       避免升級地獄
     OSGi 基礎
-      Bundle (套件包)
+      Bundle 套件包
         獨立生命週期
         MANIFEST.MF 定義
-      Service (服務)
+      Service 服務
         Publish-Find-Bind
       Extension Point
-        Model Validator (邏輯驗證)
-        Callout (前端連動)
-        Process (批次處理)
-        Event Handler (事件監聽)
+        Model Validator 邏輯驗證
+        Callout 前端連動
+        Process 批次處理
+        Event Handler 事件監聽
     開發工具
       Eclipse IDE
       Maven / Tycho
       Git
-    實作範例 (Process)
+    實作範例 Process
       繼承 SvrProcess
-      prepare() 讀參數
-      doIt() 寫邏輯
+      prepare 讀參數
+      doIt 寫邏輯
       OSGI-INF 註冊服務
-    部署 (Deploy)
-      2Pack (打包 AD 設定)
+    部署 Deploy
+      2Pack 打包 AD 設定
       P2 Repository
 ```
 
@@ -931,30 +931,30 @@ iDempiere 預留了很多「插座」讓 Plugin 插進去：
 ```mermaid
 mindmap
   root((台灣在地化<br/>Taiwan Localization))
-    語言 (Language)
-      繁體中文 (zh_TW)
-      社群語系包 (~2% -> 高覆蓋率)
-      翻譯貢獻 (Pull Request)
-    統一發票 (GUI)
+    語言 Language
+      繁體中文 zh_TW
+      社群語系包 ~2% -> 高覆蓋率
+      翻譯貢獻 Pull Request
+    統一發票 GUI
       挑戰
-        格式 (三聯/二聯/電子)
+        格式 三聯/二聯/電子
         字軌配號
         每兩月申報
       解法
         客製 Plugin
-        第三方 API (電子發票)
-        JasperReports (列印格式)
-    會計 (Accounting)
-      科目表 (COA)
+        第三方 API 電子發票
+        JasperReports 列印格式
+    會計 Accounting
+      科目表 COA
         符合商業會計法
         參考簡體版修改
-      稅務 (Tax)
+      稅務 Tax
         營業稅 5%
         零稅率/免稅
     其他需求
-      票據管理 (支票/託收)
-      HR (勞健保/扣繳)
-      匯率 (TWD 主幣別)
+      票據管理 支票/託收
+      HR 勞健保/扣繳
+      匯率 TWD 主幣別
 ```
 
 ### 📝 重點筆記
@@ -984,24 +984,24 @@ mindmap
 ```mermaid
 mindmap
   root((導入路線圖<br/>Implementation Roadmap))
-    1. 評估 (Assessment)
-      需求對照 (Gap Analysis)
-      團隊能力 (Java/Accounting)
+    1. 評估 Assessment
+      需求對照 Gap Analysis
+      團隊能力 Java/Accounting
       Go / No-Go 決策
-    2. 規劃 (Planning)
-      組織架構 (Client/Org)
-      流程梳理 (As-Is / To-Be)
-      在地化方案 (發票/稅務)
-    3. 建置 (Build)
-      環境部署 (Prod/Test)
-      基礎設定 (COA/Tax/Price)
-      資料匯入 (BP/Product)
-      客製開發 (Plugin)
-    4. 測試 (Test)
-      UAT (使用者驗收)
-      平行測試 (Parallel Run)
+    2. 規劃 Planning
+      組織架構 Client/Org
+      流程梳理 As-Is / To-Be
+      在地化方案 發票/稅務
+    3. 建置 Build
+      環境部署 Prod/Test
+      基礎設定 COA/Tax/Price
+      資料匯入 BP/Product
+      客製開發 Plugin
+    4. 測試 Test
+      UAT 使用者驗收
+      平行測試 Parallel Run
       壓力測試
-    5. 上線 (Go-Live)
+    5. 上線 Go-Live
       期初餘額開帳
       切換系統
       持續維運/備份
