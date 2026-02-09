@@ -893,7 +893,7 @@ mindmap
         Event Handler 事件監聽
     開發工具
       Eclipse IDE
-      Maven / Tycho
+      Maven Tycho
       Git
     實作範例 Process
       繼承 SvrProcess
@@ -933,11 +933,11 @@ mindmap
   root((台灣在地化<br/>Taiwan Localization))
     語言 Language
       繁體中文 zh_TW
-      社群語系包 ~2% -> 高覆蓋率
+      社群語系包 約 2% 到 高覆蓋率
       翻譯貢獻 Pull Request
     統一發票 GUI
       挑戰
-        格式 三聯/二聯/電子
+        格式 三聯 二聯 電子
         字軌配號
         每兩月申報
       解法
@@ -950,10 +950,10 @@ mindmap
         參考簡體版修改
       稅務 Tax
         營業稅 5%
-        零稅率/免稅
+        零稅率 免稅
     其他需求
-      票據管理 支票/託收
-      HR 勞健保/扣繳
+      票據管理 支票 託收
+      HR 勞健保 扣繳
       匯率 TWD 主幣別
 ```
 
@@ -986,16 +986,16 @@ mindmap
   root((導入路線圖<br/>Implementation Roadmap))
     1. 評估 Assessment
       需求對照 Gap Analysis
-      團隊能力 Java/Accounting
-      Go / No-Go 決策
+      團隊能力 Java Accounting
+      Go No-Go 決策
     2. 規劃 Planning
-      組織架構 Client/Org
-      流程梳理 As-Is / To-Be
-      在地化方案 發票/稅務
+      組織架構 Client Org
+      流程梳理 As-Is To-Be
+      在地化方案 發票 稅務
     3. 建置 Build
-      環境部署 Prod/Test
-      基礎設定 COA/Tax/Price
-      資料匯入 BP/Product
+      環境部署 Prod Test
+      基礎設定 COA Tax Price
+      資料匯入 BP Product
       客製開發 Plugin
     4. 測試 Test
       UAT 使用者驗收
@@ -1004,7 +1004,7 @@ mindmap
     5. 上線 Go-Live
       期初餘額開帳
       切換系統
-      持續維運/備份
+      持續維運 備份
 ```
 
 ### 📝 重點筆記
