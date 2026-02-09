@@ -8,32 +8,32 @@
 
 ```mermaid
 graph LR
-    Main((血液 Omega-3<br/>與早發性失智))
+    Main(("血液 Omega-3<br/>與早發性失智"))
     
     %% 分支：研究背景
-    Main --> Context[📋 研究背景]
-    Context --> Target[對象：40-64歲中年人]
-    Context --> Data[來源：英國生物庫 UK Biobank]
-    Context --> Gap[缺口：飲食與早發性失智<br/>關聯性尚未被充分研究]
+    Main --> Context["📋 研究背景"]
+    Context --> Target["對象：40-64歲中年人"]
+    Context --> Data["來源：英國生物庫 UK Biobank"]
+    Context --> Gap["缺口：飲食與早發性失智<br/>關聯性尚未被充分研究"]
 
     %% 分支：核心發現
-    Main --> Findings[🔍 關鍵發現]
-    Findings --> HighLevel[濃度越高，風險越低]
-    Findings --> Stats[Q4/Q5 高濃度組<br/>風險降低約 40%]
-    Findings --> Types[成分影響]
-    Types --> NonDHA[非 DHA Omega-3<br/>也有顯著保護力]
-    Types --> DHA[DHA 呈現<br/>負相關趨勢]
+    Main --> Findings["🔍 關鍵發現"]
+    Findings --> HighLevel["濃度越高，風險越低"]
+    Findings --> Stats["Q4/Q5 高濃度組<br/>風險降低約 40%"]
+    Findings --> Types["成分影響"]
+    Types --> NonDHA["非 DHA Omega-3<br/>也有顯著保護力"]
+    Types --> DHA["DHA 呈現<br/>負相關趨勢"]
 
     %% 分支：基因交互作用
-    Main --> Gene[🧬 基因影響]
-    Gene --> APOE4[APOE-ε4 基因攜帶者]
-    Gene --> NoInteraction[無交互作用<br/>(對高風險群同樣有效)]
+    Main --> Gene["🧬 基因影響"]
+    Gene --> APOE4["APOE-ε4 基因攜帶者"]
+    Gene --> NoInteraction["無交互作用<br/>(對高風險群同樣有效)"]
 
     %% 分支：結論
-    Main --> Conclusion[✅ 結論與啟示]
-    Conclusion --> Prevention[預防勝於治療]
-    Conclusion --> Timing[關鍵期：中年早期攝取]
-    Conclusion --> Benefit[延緩 EOD 發病進程]
+    Main --> Conclusion["✅ 結論與啟示"]
+    Conclusion --> Prevention["預防勝於治療"]
+    Conclusion --> Timing["關鍵期：中年早期攝取"]
+    Conclusion --> Benefit["延緩 EOD 發病進程"]
 ```
 
 ## 📝 重點筆記
